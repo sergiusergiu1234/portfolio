@@ -16,18 +16,7 @@ export const Content = () => {
     const Element = Scroll.Element;
     const { blurred } = useBlurContext();
 
-    const downloadPdf = () =>{
-        // fetch('Stefan_Sergiu--Catalin--Resume.pdf').then(response=>{
-        //     response.blob().then(blob=>{
-        //         const fileURL = window.URL.createObjectURL(blob);
 
-        //         let alink = document.createElement('a');
-        //         alink.href = fileURL;
-        //         alink.download = 'Stefan_Sergiu--Catalin--Resume.pdf';
-        //         alink.click();
-        //     })
-        // })
-    }
 
     
     return (
@@ -70,7 +59,7 @@ export const Content = () => {
             
             <div className='description-buttons'>
                 <a href='Stefan-Sergiu--Catalin--Resume.pdf' download='Stefan-Sergiu--Catalin--Resume.pdf'>
-                <Button onClick={downloadPdf} className='btn--primary p-desc'>Résumé</Button>
+                <Button  className='btn--primary p-desc'>Résumé</Button>
                 </a>
                         
                         <Button onClick={()=>scrollTo('contact')} className='btn--primary p-desc'>Hire me</Button>
