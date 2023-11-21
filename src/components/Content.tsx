@@ -17,16 +17,16 @@ export const Content = () => {
     const { blurred } = useBlurContext();
 
     const downloadPdf = () =>{
-        fetch('Stefan_Sergiu--Catalin--Resume.pdf').then(response=>{
-            response.blob().then(blob=>{
-                const fileURL = window.URL.createObjectURL(blob);
+        // fetch('Stefan_Sergiu--Catalin--Resume.pdf').then(response=>{
+        //     response.blob().then(blob=>{
+        //         const fileURL = window.URL.createObjectURL(blob);
 
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = 'Stefan_Sergiu--Catalin--Resume.pdf';
-                alink.click();
-            })
-        })
+        //         let alink = document.createElement('a');
+        //         alink.href = fileURL;
+        //         alink.download = 'Stefan_Sergiu--Catalin--Resume.pdf';
+        //         alink.click();
+        //     })
+        // })
     }
 
     
@@ -69,7 +69,10 @@ export const Content = () => {
                 </div>
             
             <div className='description-buttons'>
-                        <Button onClick={downloadPdf} className='btn--primary p-desc'>Résumé</Button>
+                <a href='Stefan-Sergiu--Catalin--Resume.pdf' download='Stefan-Sergiu--Catalin--Resume.pdf'>
+                <Button onClick={downloadPdf} className='btn--primary p-desc'>Résumé</Button>
+                </a>
+                        
                         <Button onClick={()=>scrollTo('contact')} className='btn--primary p-desc'>Hire me</Button>
                     </div>
             <h2>I can work with:</h2>
