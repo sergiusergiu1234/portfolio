@@ -17,7 +17,7 @@ export const Content = () => {
     const { blurred } = useBlurContext();
 
     const downloadPdf = () =>{
-        fetch('Stefan_Sergiu-+Catalin_Resume.pdf').then(response=>{
+        fetch('Stefan_Sergiu--Catalin--Resume.pdf').then(response=>{
             response.blob().then(blob=>{
                 const fileURL = window.URL.createObjectURL(blob);
 
