@@ -35,8 +35,8 @@ const handleNavToGithub =() =>{
         </div>
        
        <div className="image-container">
-            <img src={process.env.PUBLIC_URL + '/online-sop3.png'} alt="Profile Picture" className="image-box"/>   
-            <img src={process.env.PUBLIC_URL + '/online-shop.png'} alt="Profile Picture" className="image-box image-overlay"/>    
+            <img src={process.env.PUBLIC_URL + '/online-sop3.jpeg'} alt="Profile Picture" className="image-box"/>   
+            <img src={process.env.PUBLIC_URL + '/online-shop.jpeg'} alt="Profile Picture" className="image-box image-overlay"/>    
         </div>
     </div>)
 }
