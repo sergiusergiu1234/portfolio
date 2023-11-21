@@ -1,0 +1,21 @@
+
+label {
+    color: white;
+}
+
+.form-grp{
+    display: grid;
+}
+
+.message-input{
+    width: 60vw;
+    height: 20vh;
+}
+.smaller-input{
+    width: 30vw;
+}
+@media screen and (max-width:850px){
+    .message-input{
+        width: 80vw;
+    }
+}

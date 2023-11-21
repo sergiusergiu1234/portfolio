@@ -1,0 +1,51 @@
+.project-section-container{
+    width: 90vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 50%); /* Set fixed width columns */
+    background-color: rgb(28, 28, 28);
+}   
+.image-container {
+  width: 70%;
+  position: relative;
+  margin: 50px;
+  margin-bottom: 20%;
+  margin-right: 20%;
+}
+
+.image-box {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.image-overlay {
+  z-index: 9;
+  position: absolute;
+  top: 15%;
+  left: 20%; 
+
+
+  opacity: 1;
+  background: #009938;
+}
+  .project-description{
+    margin: 50px;
+  }
+
+  .project-buttons{
+    justify-content: center;
+    display: flex;
+  }
+
+
+  @media screen and (max-width:940px) {
+    .project-section-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+    }
+  
+  }

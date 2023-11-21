@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+:root{
+    --primary: white;
+}
+
+.btn{
+    font-family: 'Martian Mono', monospace; 
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn--primary{
+    
+    background-color: rgb(0, 12, 116);
+    color:rgb(255, 255, 255);
+    border:1px solid white;
+    width: 15vw;
+    transition: height 2s ease;
+}
+.btn--primary:hover{
+    transition: height 2s ease;
+    background-color: black;
+}
+
+.btn--outline {
+    background-color: rgb(0, 1, 10);
+    color: white;
+    transition: all 0.5s ease-out;
+  
+    border-color: transparent;
+    background-image: linear-gradient(to right, var(--primary), var(--primary));
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+}
+
+.btn--outline:hover {
+    background-size: 100% 2px;
+}
+
+
+.btn--large{
+    padding:2% 3%;
+    font-size: 3vw;
+}
+
+
+.p-desc{
+    min-height: 50px;
+    margin: 20px;
+    }
+
+@media screen and (max-width: 960px){
+   
+    .btn--simple:hover{
+        background: red;
+        border-left: 30px;
+        border-color:white;
+        border-style: solid;
+
+    }
+    .btn--simple{
+        background-color: transparent;
+        color:black;
+    }
+
+    .p-desc{
+        width: 40vw;
+        max-width: 200px;
+    }
+}

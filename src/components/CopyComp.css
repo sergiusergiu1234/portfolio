@@ -1,0 +1,18 @@
+.copy-comp-container{
+    color: white;
+    width: 50vw;
+    margin-left: 10%;
+}
+td{
+    width: fit-content;
+    color: rgb(255, 173, 157);
+    text-align: left;
+}
+.h{
+    text-align: right;
+}
+.copy-button{
+    background-color: transparent;
+    color: white;
+    width: 120px;
+}
