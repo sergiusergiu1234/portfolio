@@ -58,7 +58,7 @@ export const Content = () => {
                 </div>
             
             <div className='description-buttons'>
-                <a href='Stefan-Sergiu--Catalin--Resume.pdf' download='Stefan-Sergiu--Catalin--Resume.pdf'>
+                <a href='Stefan-Sergiu--Catalin-Resume.pdf' download='Stefan-Sergiu--Catalin-Resume.pdf'>
                 <Button  className='btn--primary p-desc'>Résumé</Button>
                 </a>
                         
