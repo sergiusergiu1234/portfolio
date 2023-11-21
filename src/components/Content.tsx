@@ -23,7 +23,7 @@ export const Content = () => {
 
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'Stefan_Sergiu-+Catalin_Resume.pdf';
+                alink.download = 'Stefan_Sergiu--Catalin--Resume.pdf';
                 alink.click();
             })
         })
