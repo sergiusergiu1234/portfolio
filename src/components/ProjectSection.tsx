@@ -15,19 +15,19 @@ const handleNavToGithub =() =>{
         <div>
             <h4>Slope Emporium - Online shop sample</h4>
                 <p className='project-description'>
-                    In this project i used React Typescript for the frontend and Java Spring Boot for backend,
-                    while the data was stored in a MySql database. 
-                    <br/><br/>
                     This is a online shop sample that has basic shop features, such as product filtering, personal customer accounts,
-                    wishlist, shopping carts and order placement functionality. 
+                    wishlist, shopping carts and order placement functionality, and the products data is controlled through an admin interface.
                     <br/><br/>
-                    The data of the products is controlled through an admin interface.
+                    For this project i used React Typescript for the frontend and Java Spring Boot for backend,
+                    while the data was stored in a MySql database. Images are stored on Amazon S3.
                     <br/><br/>
+                    
+                  
                  
                     
                 </p>
                 <CopyComp/>
-                <div className='project-buttons'>
+                <div className='description-buttons'>
                                 <Button   className='btn--primary p-desc' onClick={handleNavToProject}>Live Demo</Button>
                                 <Button  className='btn--primary p-desc' onClick={handleNavToGithub}>Github</Button>
                                 

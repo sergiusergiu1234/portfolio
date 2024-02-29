@@ -12,6 +12,7 @@ import {scrollTo} from '../scrolTo';
 import ProjectSection from './ProjectSection';
 import { Button } from 'react-bootstrap';
 import Footer from './Footer';
+import ProjectSection2 from './ProjectSection2';
 export const Content = () => {
     const Element = Scroll.Element;
     const { blurred } = useBlurContext();
@@ -95,7 +96,7 @@ export const Content = () => {
         <Element name="projects"></Element>
         <h2>Projects</h2>
         <ProjectSection/>
-
+        <ProjectSection2/>
         <Element name="contact"></Element>
         <Contact/>
         <Footer/>

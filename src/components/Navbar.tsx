@@ -49,7 +49,7 @@ const scroller = Scroll.scroller;
         <nav className="navbar">
             <div className='navbar-container'>
                 <ul className={toggle ? 'nav-menu active' : 'nav-menu'}>
-                <li><Button buttonStyle='btn--outline' onClick={()=>scrollTo('landing')}>Home</Button></li>
+                    <li><Button buttonStyle='btn--outline' onClick={()=>scrollTo('landing')}>Home</Button></li>
                     <li><Button buttonStyle='btn--outline' onClick={()=>scrollTo('about')}>About</Button></li>
                     <li><Button buttonStyle='btn--outline' onClick={()=>scrollTo('contact')}>Contact</Button></li>
                     <li><Button buttonStyle='btn--outline' onClick={()=>scrollTo('projects')}>Projects</Button></li>

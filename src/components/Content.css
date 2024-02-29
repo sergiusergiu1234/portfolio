@@ -20,6 +20,7 @@
 p{
     color: white;
     font-family: 'Martian Mono', monospace; 
+    font-size: 1rem;
 }
 h2, h4{
   color: rgb(147, 255, 152);

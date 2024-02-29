@@ -3,8 +3,25 @@
     height: auto;
     display: grid;
     grid-template-columns: repeat(2, 50%); /* Set fixed width columns */
-    background-color: rgb(28, 28, 28);
-}   
+    background-color: rgb(56, 56, 56);
+    margin-top: 30px;
+}
+
+.project2-section-container{
+  width: 90vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(2, 50%); /* Set fixed width columns */
+  background-color: rgb(56, 56, 56);
+  margin-top: 30px;
+}
+
+.video-container{
+ justify-self: center;
+ align-self: center;
+}
+
 .image-container {
   width: 70%;
   position: relative;
