@@ -17,7 +17,8 @@ const ProjectSection2 = ()=>{
                  providing insights into the complexities of real-time communication and
                 the nuances of working with a NoSQL database like MongoDB. 
                 <br/><br/>
-                <button className="project2-button">Visit Github repository</button> 
+           
+                <a href="https://github.com/sergiusergiu1234/chat-12"  className="project2-button">Visit Github repository</a> 
                 <br/><br/>
                  While the project has achieved its intednded purpose, there are plans to
                incorporate new features and improvements in the future.
