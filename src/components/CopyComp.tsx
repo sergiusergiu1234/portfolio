@@ -17,15 +17,16 @@ const CopyComp = () =>{
         navigator.clipboard.writeText(password);
         setLastCopied('password');
     }
-    return (<div className="copy-comp-container">
+    return (<div className="flex flex-col text-center items-left justify-center text-white w-max  ml-[5vw] mb-[2vw]">
            <label>NOTE: customer account for testing purposes:</label>
         <table>
             <tbody>
                 <tr>
-                    <td className="h">
+                    <td className="flex flex-row items-center  ">
                         @ <MdDoubleArrow />
                     </td>   
-                    <td><Button className="copy-button" onClick={copyUsername}>
+                    <td >
+                        <Button className="flex flex-row items-center text-white" onClick={copyUsername}>
                         user1
                          {lastCopied === 'username' ? <RiCheckDoubleFill /> : <FiClipboard/> } 
                         </Button>
@@ -35,9 +36,9 @@ const CopyComp = () =>{
                     </td>
                 </tr>
                 <tr>
-                    <td className="h">pass <MdDoubleArrow /></td>
+                    <td className="flex flex-row items-center ">pass <MdDoubleArrow /></td>
                     <td>
-                    <Button className="copy-button" onClick={copyPassword}>
+                    <Button className="flex flex-row items-center text-white" onClick={copyPassword}>
                         PASSW123!a
                         {lastCopied === 'password' ? <RiCheckDoubleFill /> : <FiClipboard/> } 
                     </Button>

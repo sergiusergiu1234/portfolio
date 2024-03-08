@@ -1,6 +1,6 @@
-import React from 'react';
+
 import './Button.css';
-import {Link} from 'react-scroll';
+
 
 const STYLES =['btn--primary', 'btn--outline' , 'btn--simple'];
 const SIZES =['btn--medium', 'btn--large'];

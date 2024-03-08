@@ -12,6 +12,7 @@
     "@types/react": "^18.2.25",
     "@types/react-dom": "^18.2.10",
     "bootstrap": "^5.3.2",
+    "framer-motion": "^11.0.8",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.0",
     "react-dom": "^18.2.0",
@@ -48,6 +49,9 @@
   },
   "devDependencies": {
     "@types/react-scroll": "^1.8.8",
-    "gh-pages": "^6.0.0"
+    "autoprefixer": "^10.4.18",
+    "gh-pages": "^6.0.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
   }
 }

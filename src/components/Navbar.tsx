@@ -48,14 +48,14 @@ const scroller = Scroll.scroller;
         <>
         <nav className="navbar">
             <div className='navbar-container'>
-                <ul className={toggle ? 'nav-menu active' : 'nav-menu'}>
-                    <li><Button buttonStyle='btn--outline' onClick={()=>scrollTo('landing')}>Home</Button></li>
-                    <li><Button buttonStyle='btn--outline' onClick={()=>scrollTo('about')}>About</Button></li>
-                    <li><Button buttonStyle='btn--outline' onClick={()=>scrollTo('contact')}>Contact</Button></li>
-                    <li><Button buttonStyle='btn--outline' onClick={()=>scrollTo('projects')}>Projects</Button></li>
+                <ul className={toggle ? 'nav-menu active ' : 'nav-menu'}>
+                    <li><button className='text-white font-sans font-bold hover:underline ' onClick={()=>scrollTo('landing')}>Home</button></li>
+                    <li><button className='text-white font-sans font-bold hover:underline' onClick={()=>scrollTo('about')}>About</button></li>
+                    <li><button className='text-white font-sans font-bold hover:underline' onClick={()=>scrollTo('contact')}>Contact</button></li>
+                    <li><button className='text-white font-sans font-bold hover:underline' onClick={()=>scrollTo('projects')}>Projects</button></li>
                 </ul>  
             </div>
-            <IconContext.Provider value={{ size: '40' }}><button className="toggle btn--outline" onClick={handleToggle}>
+            <IconContext.Provider value={{ size: '40' }}><button className="toggle text-white" onClick={handleToggle}>
                 {!toggle ?<BiMenu />
                 : <MdClose/>}</button></IconContext.Provider>
         </nav>
