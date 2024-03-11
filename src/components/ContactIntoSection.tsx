@@ -31,7 +31,7 @@ const ContactInfoSection = () => {
         className={"hover:cursor-pointer"}
       >
         <path id="curve" d="M 20 50 A 30 30 0 1 1 20 51"></path>
-        <text fill="#d44706" className="text-md">
+        <text fill="#d44706" className="text-sm">
           <textPath href="#curve" startOffset="0%">
             Let's connect
           </textPath>
