@@ -17,7 +17,7 @@ const ProjectSection3 = () =>{
 
     return ( <motion.div ref={containerRef} variants={{hidden:{opacity:0}, visible:{opacity:1}}} transition={{duration: 2, delay: 0.5}} initial='hidden' animate={controls} className="bg-[#2e2e2d] h-max font-rubik_mono_one_two">
       <h4 className="text-[#02e394] lg:text-2lg text-lg p-[5vw] lg:p-[2vw] ml-[5vw] mt-[5vw]  font-rubik-mono">
-        Slope Emporium - Online shop sample
+        Web scrapper
       </h4>
 
             
