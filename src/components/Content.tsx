@@ -24,6 +24,7 @@ import AnimatedButton from "./AnimatedButton";
 import Contact from "./Contact";
 import SkillsSection from "./SkillsSection";
 import Title from "./Title";
+import ContactInfoSection from "./ContactIntoSection";
 
 export const Content = () => {
   const Element = Scroll.Element;
@@ -43,7 +44,7 @@ export const Content = () => {
 
   return (
     <div className={`font-rubik_mono_one_two ${blurred ? "blur-xl" : ""}`}>
-
+      <ContactInfoSection/>
       <Element
         className=" bg-gray-900 flex flex-col   h-screen content-center items-center sm:text-4xl text-lg  justify-center z-10"
         name="landing"
@@ -68,6 +69,8 @@ export const Content = () => {
 
               transition: {
                 duration: 3,
+                delay:1
+
               },
             },
           }}
@@ -83,7 +86,7 @@ export const Content = () => {
         <motion.div
           variants={{
             hidden: { opacity: 0, y: -20 },
-            show: { opacity: 1, y: 0, z: 100, transition: { duration: 3, delay: 1 } },
+            show: { opacity: 1, y: 0, z: 100, transition: { duration: 3, delay: 2 } },
           }}
           initial="hidden"
           animate="show"
