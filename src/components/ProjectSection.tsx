@@ -45,12 +45,12 @@ const ProjectSection = () => {
           </p>
           <CopyComp />
           <div className="flex sm:flex-row flex-col lg:gap-[5vw]   items-center justify-center mb-[5vw] gap-[3vh]">
-            <AnimatedButton
+            {/* <AnimatedButton
               onClick={handleNavToProject}
               text="Live Demo"
               width={150}
               height={40}
-            />
+            /> */}
             <AnimatedButton
               onClick={handleNavToGithub}
               text="Github"
