@@ -23,7 +23,7 @@ const ProjectSection = () => {
 
 
   return (
-    <motion.div ref={containerRef} variants={{hidden:{opacity:0}, visible:{opacity:1}}} transition={{duration: 2, delay: 0.5}} initial='hidden' animate={controls} className="bg-[#2e2e2d] h-max font-rubik_mono_one_two">
+    <motion.div ref={containerRef} variants={{hidden:{opacity:0}, visible:{opacity:1}}} transition={{duration: 0.5, delay: 0.2}} initial='hidden' animate={controls} className="bg-[#2e2e2d] h-max font-rubik_mono_one_two">
       <h4 className="text-[#02e394] lg:text-2lg text-lg p-[5vw] lg:p-[2vw] ml-[5vw] mt-[5vw]  font-rubik-mono">
         Slope Emporium - Online shop sample
       </h4>
@@ -37,20 +37,24 @@ const ProjectSection = () => {
             controlled through an admin interface.
             <br />
             <br />
-            For this project i used React Typescript for the frontend and Java
+            For this project i used React Typescript for frontend and Java
             Spring Boot for backend, while the data was stored in a MySql
             database. Images are stored on Amazon S3.
             <br />
             <br />
+            <br />
+            <br />
+            <p className="text-sm ">Please note: The live demo is hosted on a free plan, which means it may take a few minutes to 'wake up' if it hasn't been accessed recently. Thank you for your patience!</p>
+
           </p>
           <CopyComp />
           <div className="flex sm:flex-row flex-col lg:gap-[5vw]   items-center justify-center mb-[5vw] gap-[3vh]">
-            {/* <AnimatedButton
+            <AnimatedButton
               onClick={handleNavToProject}
               text="Live Demo"
               width={150}
               height={40}
-            /> */}
+            />
             <AnimatedButton
               onClick={handleNavToGithub}
               text="Github"

@@ -19,6 +19,7 @@ const CopyComp = () =>{
     }
     return (<div className="flex flex-col text-center items-left justify-center text-white w-max  ml-[5vw] mb-[2vw]">
            <label>NOTE: customer account for testing purposes:</label>
+           
         <table>
             <tbody>
                 <tr>
