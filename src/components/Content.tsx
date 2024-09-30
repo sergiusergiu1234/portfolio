@@ -96,13 +96,13 @@ export const Content = () => {
             variants={{ hidden: { opacity: 0 }, show: { opacity: 1, z: 100 } }}
             className="text-white m-5"
           >
-            Junior
+            Full
           </motion.div>
           <motion.div
             variants={{ hidden: { opacity: 0 }, show: { opacity: 1, z: 100 } }}
             className="text-white m-5"
           >
-            Web
+            Stack
           </motion.div>
           <motion.div
             variants={{ hidden: { opacity: 0 }, show: { opacity: 1, z: 100 } }}
@@ -205,10 +205,10 @@ export const Content = () => {
 
         <section className="flex flex-col md:flex-row md:w-[80vw] justify-center items-center md:gap-[10vw] gap-[3vh]">
           <a
-            href="CV-Stefan-Sergiu--Catalin.pdf"
-            download="CV-Stefan-Sergiu--Catalin.pdf"
+            href="CV-Stefan-Sergiu-Catalin.pdf"
+            download="CV-Stefan-Sergiu-Catalin.pdf"
           >
-            <AnimatedButton onClick={() => { }} width={150} height={50} text="Résumé" />
+            <AnimatedButton onClick={() => { }} width={150} height={50} text="Resume" />
           </a>
           <a>
             <AnimatedButton
